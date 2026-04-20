@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{CCA7DD5B-0ABC-4BC2-B4EF-AB22020E8CF5}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="QuickLauncher.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="QuickLauncher">
+        <MSBuild Projects="QuickLauncher.dproj"/>
+    </Target>
+    <Target Name="QuickLauncher:Clean">
+        <MSBuild Projects="QuickLauncher.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="QuickLauncher:Make">
+        <MSBuild Projects="QuickLauncher.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="QuickLauncher"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="QuickLauncher:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="QuickLauncher:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
