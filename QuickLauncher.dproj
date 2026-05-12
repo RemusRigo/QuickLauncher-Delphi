@@ -4,7 +4,7 @@
         <ProjectVersion>20.1</ProjectVersion>
         <FrameworkType>VCL</FrameworkType>
         <Base>True</Base>
-        <Config Condition="'$(Config)'==''">Debug</Config>
+        <Config Condition="'$(Config)'==''">Release</Config>
         <Platform Condition="'$(Platform)'==''">Win64</Platform>
         <ProjectName Condition="'$(ProjectName)'==''">QuickLauncher</ProjectName>
         <TargetedPlatforms>3</TargetedPlatforms>
@@ -128,6 +128,9 @@
         <AppDPIAwarenessMode>PerMonitorV2</AppDPIAwarenessMode>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <Icon_MainIcon>Res\terminal.ico</Icon_MainIcon>
+        <DCC_ExeOutput>.\bin\$(Config)</DCC_ExeOutput>
+        <DCC_DcpOutput>.\obj</DCC_DcpOutput>
+        <DCC_DcuOutput>.\obj\$(Config)</DCC_DcuOutput>
     </PropertyGroup>
     <ItemGroup>
         <DelphiCompile Include="$(MainSource)">
