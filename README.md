@@ -4,14 +4,10 @@ A system tray quick system tools launcher
 
 
 
-
-
 ## Authors
 
 * [@remusrigo](https://github.com/RemusRigo)
 * [@remusrigo](https://sourceforge.net/u/remusrigo/profile)
-
-
 
 
 
@@ -20,6 +16,10 @@ A system tray quick system tools launcher
 You must install .NET Runtime 10 x64 and then just run DesktopWidgets.exe
 
 
+
+## Statistics
+
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/RemusRigo/QuickLauncher-Delphi/total)
 
 
 

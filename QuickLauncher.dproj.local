@@ -3,10 +3,10 @@
 	<Transactions>
     <Transaction>2025-09-26 21:07:53.000.405,=d:\Users\Remus\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
     <Transaction>2026-03-19 22:14:16.000.600,=d:\Users\remusrigo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2026-03-19 22:17:18.000.455,D:\My Projects\Delphi\QuickLauncher\Wnd\frmMain.dfm=d:\Users\remusrigo\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
-    <Transaction>2026-03-19 22:17:18.000.455,D:\My Projects\Delphi\QuickLauncher\Wnd\frmMain.pas=d:\Users\remusrigo\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2026-03-19 22:17:34.000.850,D:\My Projects\Delphi\QuickLauncher\QuickLauncher.dproj=d:\Users\remusrigo\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
-    <Transaction>2026-03-19 22:35:45.000.893,D:\My Projects\Delphi\QuickLauncher\Wnd\wndMain.dfm=D:\My Projects\Delphi\QuickLauncher\Wnd\frmMain.dfm</Transaction>
-    <Transaction>2026-03-19 22:35:45.000.893,D:\My Projects\Delphi\QuickLauncher\Wnd\wndMain.pas=D:\My Projects\Delphi\QuickLauncher\Wnd\frmMain.pas</Transaction>
+    <Transaction>2026-03-19 22:17:18.000.455,d:\Users\remusrigo\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\My Projects\Delphi\QuickLauncher\Wnd\frmMain.pas</Transaction>
+    <Transaction>2026-03-19 22:17:18.000.455,d:\Users\remusrigo\Documents\Embarcadero\Studio\Projects\Unit2.dfm=D:\My Projects\Delphi\QuickLauncher\Wnd\frmMain.dfm</Transaction>
+    <Transaction>2026-03-19 22:17:34.000.850,d:\Users\remusrigo\Documents\Embarcadero\Studio\Projects\Project2.dproj=D:\My Projects\Delphi\QuickLauncher\QuickLauncher.dproj</Transaction>
+    <Transaction>2026-03-19 22:35:45.000.893,D:\My Projects\Delphi\QuickLauncher\Wnd\frmMain.dfm=D:\My Projects\Delphi\QuickLauncher\Wnd\wndMain.dfm</Transaction>
+    <Transaction>2026-03-19 22:35:45.000.893,D:\My Projects\Delphi\QuickLauncher\Wnd\frmMain.pas=D:\My Projects\Delphi\QuickLauncher\Wnd\wndMain.pas</Transaction>
   </Transactions>
 </BorlandProject>
